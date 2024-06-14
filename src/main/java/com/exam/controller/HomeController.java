@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
-
+//hotfix쓰기
 	private Logger logger = LoggerFactory.getLogger(getClass());
 
 	@GetMapping(value={"/home"})
