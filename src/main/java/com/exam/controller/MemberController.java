@@ -19,7 +19,7 @@ public class MemberController {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
 	
-	
+	//hotfix
 	@GetMapping(value={"/signup"})
 	public String showSignupPage(ModelMap model) {
 		
